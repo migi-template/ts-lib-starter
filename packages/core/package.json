@@ -1,0 +1,22 @@
+{
+  "name": "@booji/core",
+  "version": "0.0.1",
+  "description": "@booji/core",
+  "author": "xietian",
+  "license": "MIT",
+  "main": "./dist/core.cjs.js",
+  "module": "./dist/core.esm.js",
+  "broswer": "./dist/core.min.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rimraf dist/* && rollup -c",
+    "lint": "prettier --write src/**/*"
+  },
+  "dependencies": {
+    "@booji/types": "0.0.1"
+  }
+}

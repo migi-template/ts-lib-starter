@@ -1,3 +1,7 @@
 node_modules
 *-lock.json
+yarn.lock
+*error.log
 dist
+.turbo
+.next
